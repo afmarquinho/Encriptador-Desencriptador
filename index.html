@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="app.css" />
+    <title>ENCRIPTADOR</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="text__center">ENCRIPTADOR DE TEXTO</h1>
+    </header>
+    <main>
+        <div class="section__contenedor contenedor">
+            <section class="form__section">
+                <div class="form__contenedor">
+                  <form action="" class="formulario__encriptar">
+                    <div class="input__group">
+                        <label for="texto" class="label__texto">Texto a Encriptar</label>
+                        <textarea name="texto" class="texto"></textarea>
+                    </div>
+                    <button type="submit" class="btn__encriptar">ENCRIPTAR</button>
+                  </form>
+                </div>
+              </section>
+              <section class="encriptador__section">
+                <div class="encriptador__contenedor">
+                    <form action=""class="formulario__desencriptar">
+                      <div class="input__group">
+                          <label for="texto__encriptado" class="label__texto">Texto Encriptado</label>
+                          <textarea name="texto__encriptado" class="texto__encriptado" disabled></textarea>
+                      </div>
+                      <button type="submit" class="btn__desencriptar">DESENCRIPTAR</button>
+                    </form>
+                  </div>
+              </section>
+        </div>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
